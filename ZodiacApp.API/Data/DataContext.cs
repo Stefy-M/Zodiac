@@ -9,6 +9,8 @@ namespace ZodiacApp.API.Data
 
         public DbSet<Value> Values {get;set;}
 
+        public DbSet<User> User {get;set;}
+
 
         
     }
